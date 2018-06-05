@@ -12,13 +12,13 @@
 				-webkit-transition:background 1s,color 1s;
 				-moz-transition:background 1s,color 1s;
 				-o-transition:background 1s,color 1s;
-            margin-top: 32px;
+            margin-top: 90px;
 				}
 
 				.button1:hover{
 
           margin: 0 auto;
-                margin-top: 32px;
+                margin-top: 90px;
         display: block;
         width: 170px;
         background: #ededed59;
@@ -26,9 +26,10 @@
 				}
 
 .centro{
+
     margin: 0 auto;
       display: block;
-      width: 90%;
+      width:30%;
       background-color: #00000057;
       border-radius:10px;
 }
@@ -36,11 +37,39 @@
   background: black;
 color: white;
 margin-bottom: 30px;
+margin-top: 190px;
+
 }
+
+aside {
+width:30%;
+padding:20px;
+box-sizing:border-box;
+background:none;
+float:left;
+		
+	
+
+
+}
+
 body{
     background-color: #E6E6E6;
+    width:95%;
+    margin:auto;
+    min-width:600px;
+    max-width:2000px
 }
+
+.contenedor {
+			width:auto;
+			max-width:2000px;
+			margin:auto;	
+			overflow:hidden;
+}
+
 h1{
+	font-family: italic;
     margin: auto;
     color:black;
     text-align:center;
@@ -53,7 +82,7 @@ h1{
     width: 200px;
     font-family: sans-serif;
     list-style-type: circle;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .indicetexto a{
     color: white;
@@ -76,16 +105,18 @@ h2 {
 	font-style: italic;
     margin: 10px;
     color:black;
-    text-align:left;
+    text-align:lef;
     margin-top:35px;
 	
 }
-
+a {
+text-align:center
+}
 
 p{
-    font-family: sans-serif;
-    color:black;
-    font-size: 17px;
+    font-family: curisve;
+    color:#0080FF;
+    font-size: 20px;
     margin-top: 10px;
     width: 90%;
 }
@@ -99,7 +130,6 @@ margin-top: 50px;
 
 #header {
 margin:auto;
-
 width:700px;
 font-family:Arial, Helvetica, sans-serif;
 height: 40px;
@@ -146,8 +176,17 @@ right:-140px;
 top:0px;
 }
 
+
+
+
     #header2{
-        background-image: url(logo.jpg);height: 300px;background-size: cover;margin: 5px;
+        background-image: url(img/logo.jpg);height: 30%;
+        background-size: cover;
+         width:auto;
+		margin:5px;
+   
+        
+        
     }
         div.a {
 text-align: center;
@@ -162,4 +201,26 @@ margin-top: 10px;
 }
 *{
   font-family: sans-serif;
+}
+
+
+@media screen and (max-width: 800px){
+		
+	}
+	.main {width:100%
+	}
+	aside {
+	width:100%
+	}
+}
+media screen and (max-width: 400px){
+		
+	}
+	.contenedor {width:100%
+	}
+	
+	aside {
+	
+	display:none;
+	}
 }
