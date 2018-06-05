@@ -165,7 +165,12 @@ position:relative;
 right:-140px;
 top:0px;
 }
-
+.tlt{
+margin-top:10px;
+	text-align:left;
+    font-size: 20px;
+	
+}
 
 
 
@@ -192,5 +197,36 @@ margin-top: 10px;
 *{
   font-family: sans-serif;
 }
+ #espacio{
+			margin-top:7%;
+    }	
 
 
+@media (max-width : 420px) {
+    .visiblemovil {display:block;}
+    .visibledesktop {display:none;}
+	.centro{zoom:1.3;
+    width: 55%;
+    overflow-x: hidden;
+	
+    }
+    
+    body{
+			overflow-x:hidden;
+    }
+    
+    #indice{
+		margin-top:0px;
+    }
+    
+    .tlt{
+	margin-top:0px;
+	text-align:center;
+    font-size: 20px;
+	
+}
+    
+    #espacio{
+			margin-top:0px;
+    }	
+}
